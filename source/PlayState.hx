@@ -123,6 +123,10 @@ class PlayState extends MusicBeatState
 	// how big to stretch the pixel art assets
 	public static var daPixelZoom:Float = 6;
 
+	var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, "FNF " + Application.current.meta.get('version') + " Frynogs Engine " + FrynogsVer, 12);
+	versionShit.scrollFactor.set();
+	versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+	add(versionShit);
 	var inCutscene:Bool = false;
 
 	#if desktop
