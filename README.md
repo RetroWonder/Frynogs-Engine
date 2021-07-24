@@ -1,6 +1,6 @@
 # Friday Night Funkin Frynogs
 
-Frynogs Engine repo. Working on adding this logo at titlescreen
+Frynogs Engine repo.
 
 ![e6PbQF](https://user-images.githubusercontent.com/87475004/126863954-831fd7c8-e764-4f24-b41d-78c36b25956b.png)
 
