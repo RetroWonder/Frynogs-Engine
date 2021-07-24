@@ -8,7 +8,7 @@ Frynogs Engine repo.
 ## Credits / shoutouts
 
 - [Manfire100)] - Programmer
-- [RetroWonder] - Logo
+- [RetroWonder/Gabriel M] - Logo
 
 # Build instructions
 
