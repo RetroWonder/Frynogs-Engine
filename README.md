@@ -70,3 +70,7 @@ As for Mac, you must run 'lime test mac -debug'. REMEMBER: If you have Xcode, sk
 ### Additional guides
 
 - [Command line basics](https://ninjamuffin99.newgrounds.com/news/post/1090480)
+
+# A note
+
+Now i will distribute pre-compiled binaries only of major versions. I 'm too slow to keep the rhythm (update, lime test,update, lime test,update, lime test,update, lime test,).
