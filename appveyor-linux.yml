@@ -39,8 +39,8 @@ build_script:
   - haxelib run lime build linux
 
 after_build:
-  - tar -cvf KadeEngine-Linux.tar -C /home/appveyor/projects/kade-engine-linux/export/release/linux/bin .
+  - tar -cvf frynogs.tar -C /home/appveyor/projects/kade-engine-linux/export/release/linux/bin .
 
 artifacts:
-- path: KadeEngine-Linux.tar
-  name: Kade Engine for Linux
+- path: frynogs.tar
+  name: Frynogs Engine
