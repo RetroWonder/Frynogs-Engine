@@ -37,7 +37,8 @@ You'll also need to install a couple things that involve Gits. To do this, you n
 1. Download [git-scm](https://git-scm.com/downloads). Works for Windows, Mac, and Linux, just select your build.
 2. Follow instructions to install the application properly.
 3. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to install Polymod.
-4. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to install Discord RPC.
+4. If don't have Xcode, to compile for Mac, run first xcrun --install.
+5. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to install Discord RPC.
 
 You should have everything ready for compiling the game! Follow the guide below to continue!
 
@@ -64,7 +65,7 @@ To run it from your desktop (Windows, Mac, Linux) it can be a bit more involved.
 * MSVC v140 - VS 2015 C++ build tools (v14.00)
 
 This will install about 22GB of crap, but once that is done you can open up a command line in the project's directory and run `lime test windows -debug`. Once that command finishes (it takes forever even on a higher end PC), you can run FNF from the .exe file under export\release\windows\bin
-As for Mac, you must run 'lime test mac -debug'. REMEMBER: If you have Xcode, skip this step. If not, run xcrun --install.
+As for Mac, you must run 'lime test mac -debug'. 
 
 ### Additional guides
 
