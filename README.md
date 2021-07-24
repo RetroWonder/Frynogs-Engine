@@ -5,6 +5,9 @@ Frynogs Engine repo.
 ![e6PbQF](https://user-images.githubusercontent.com/87475004/126863954-831fd7c8-e764-4f24-b41d-78c36b25956b.png)
 
 
+[![Build status](https://ci.appveyor.com/api/projects/status/npxuk38tmfi7md8k?svg=true)](https://ci.appveyor.com/project/ManFire100/frynogs-engine)
+
+
 ## Credits / shoutouts
 
 - [Manfire100)] - Programmer
