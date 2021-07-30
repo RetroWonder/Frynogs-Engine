@@ -797,6 +797,14 @@ class PlayState extends MusicBeatState
 					});
 				case 'senpai':
 					schoolIntro(doof);
+				case 'tutorial':
+					schoolIntro(doof);
+				case 'bopeebo':
+					schoolIntro(doof);
+				case 'fresh':
+					schoolIntro(doof);
+				case 'dadbattle':
+					schoolIntro(doof);
 				case 'roses':
 					FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
