@@ -592,6 +592,12 @@ class PlayState extends MusicBeatState
 
 		dad = new Character(100, 100, SONG.player2);
 
+		// Add the Frynogs watermark
+		Watermark = new FlxText(4,healthBarBG.y + 50,0,SONG.song + " - Frynogs v. " + boh, 16);
+		Watermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		Watermark.scrollFactor.set();
+		add(Watermark);
+
 		var camPos:FlxPoint = new FlxPoint(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y);
 
 		switch (SONG.player2)
