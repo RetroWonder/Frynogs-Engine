@@ -13,6 +13,10 @@ Frynogs Engine repo.
 - [Manfire100)] - Programmer
 - [RetroWonder/Gabriel M] - Logo
 
+# How to download precompiled binaries? (windows only)
+
+click on the bulid button, below the logo.
+
 # Build instructions
 
 THESE INSTRUCTIONS ARE FOR COMPILING THE GAME'S SOURCE CODE!!!
