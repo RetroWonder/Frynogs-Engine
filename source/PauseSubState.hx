@@ -16,8 +16,11 @@ import flixel.util.FlxColor;
 class PauseSubState extends MusicBeatSubstate
 {
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
-
+	
+	#if debug
 	var menuItems:Array<String> = ['Resume', 'Restart Song', 'Exit to menu', 'Load custom dialogue'];
+	#else
+	var menuItems:Array<String> = ['Resume', 'Restart Song', 'Exit to menu'];
 	var curSelected:Int = 0;
 
 	var pauseMusic:FlxSound;
