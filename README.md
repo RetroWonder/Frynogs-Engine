@@ -12,6 +12,7 @@ Frynogs Engine repo.
 
 - [Manfire100)] - Programmer
 - [RetroWonder/Gabriel M] - Logo
+- [Epic-Riff] - Co-progammer
 
 # How to download precompiled binaries? (windows only)
 
